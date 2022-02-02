@@ -1,7 +1,7 @@
 {% include 'parts/header.tpl' %}
 <body>
 	<h1>Отзывы — Страница администрирования</h1>
-	<a href="/">Вернуться на главную</a><br>
+	<a href="/">Вернуться на главную</a><br><br>
 	<button id="logout">Выйти из учётной записи</button>
 
 	<div class="reviews">
