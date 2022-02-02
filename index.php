@@ -3,12 +3,12 @@ session_start();
 $request = $_SERVER['REQUEST_URI'];
 switch ($request) {
 	case '/' :
-		require_once 'controllers\guestpage.php';
+		require_once __DIR__ . '/controllers/guestpage.php';
 		(new GuestpageController)->index();
 		break;
 	case '/loginpage':
 	case '/adminpage':
-		require_once 'controllers\adminpage.php';
+		require_once __DIR__ . '/controllers/adminpage.php';
 		(new AdminpageController)->index();
 		break;
 	default:
