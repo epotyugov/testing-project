@@ -1,5 +1,5 @@
 <?php
-require_once 'common.php';
+require_once __DIR__ . '/../controllers/common.php';
 require_once __DIR__ . '/../models/review.php';
 require_once __DIR__ . '/../models/authentication.php';
 
@@ -85,6 +85,6 @@ class AdminpageController extends CommonController
 		if ($fromAjax) {
 			session_start();
 		}
-		return $_SESSION['authenticated'] ?: false;
+		return isset($_SESSION['authenticated']) && $_SESSION['authenticated'];
 	}
 }

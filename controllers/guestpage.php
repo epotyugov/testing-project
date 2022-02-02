@@ -1,5 +1,5 @@
 <?php
-require_once 'common.php';
+require_once __DIR__ . '/../controllers/common.php';
 require_once __DIR__ . '/../models/review.php';
 
 class GuestpageController extends CommonController
