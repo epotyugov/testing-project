@@ -1,0 +1,29 @@
+/* Стили списка отзывов */
+.reviews {
+	padding: 20px;
+}
+
+.review-container {
+	width: 1000px;
+	margin: 10px 0px;
+	padding: 15px;
+	background-color: lightgray;
+}
+
+.review-author {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.review-text {
+	font-size: 14px;
+}
+
+.review-controls {
+	margin-top: 10px;
+}
+
+.review-action-btn {
+	margin-right: 10px;
+}
